@@ -38,10 +38,6 @@ print('Hello, World!')
 SyntaxError: EOL while scanning string literal
 ````
 
-Insert
-
-Copy
-
 **Notas:**
 
 O bot só pode ser usado em canais de texto.
