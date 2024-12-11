@@ -1,9 +1,12 @@
 import discord
 import aiohttp
+import os
+from dotenv import load_dotenv, dotenv_values
+load_dotenv()
 
 # Substitua 'YOUR_DISCORD_TOKEN' pelo token do seu bot.
-TOKEN = '################################'
-API_URL = 'https://pythonium.net/api/checker'
+TOKEN =  os.getenv("TOKEN")
+API_URL = os.getenv("API_URL")
 
 intents = discord.Intents.default()
 intents.message_content = True
